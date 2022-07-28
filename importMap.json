@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "zero": "https://raw.githubusercontent.com/zero-company/zero-deno/main/mod.ts",
+    "$self": "./mod.ts",
+    "dnt": "https://deno.land/x/dnt@0.28.0/mod.ts"
+  }
+}

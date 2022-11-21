@@ -1,1 +1,1 @@
-export * from './packages/zero-utilities/generateHexV1.ts'
+export * from "./packages/zero-utilities/generateHexV1.ts";

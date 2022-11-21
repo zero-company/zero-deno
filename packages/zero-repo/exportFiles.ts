@@ -1,3 +1,3 @@
 export const exportFiles = () => {
-  console.log('Shameless Placeholder')
-}
+  console.log("Shameless Placeholder");
+};

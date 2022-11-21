@@ -16,19 +16,19 @@
  * ```
  */
 export const generateHexV1 = ({
-  prefix = '',
-  suffix = '',
-  divider = '-',
+  prefix = "",
+  suffix = "",
+  divider = "-",
   hexLength = 4,
   hexNum = 1,
 } = {}) => {
   const hexes = [...Array(hexNum)].map(() =>
     [...Array(hexLength)]
       .map(() => Math.floor(Math.random() * 16).toString(16))
-      .join('')
-  )
+      .join("")
+  );
   const joined = [prefix, ...hexes, suffix]
-    .filter(e => Boolean(e)) // Filters out falsy values [false, null, undefined, 0, ""]
-    .join(divider)
-  return { hexes, joined }
-}
+    .filter((e) => Boolean(e)) // Filters out falsy values [false, null, undefined, 0, ""]
+    .join(divider);
+  return { hexes, joined };
+};
